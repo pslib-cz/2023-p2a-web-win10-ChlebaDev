@@ -8,10 +8,10 @@
 }
 .start-panel__grid {
     display: grid;
-    grid-template-areas: "office office office other other other"
-                         "office office office other other other"
-                         "web web web other other other";
-    grid-auto-rows: auto;
+    grid-template-areas: "office other"
+                         "office other"
+                         "web    other";
+    grid-auto-rows: 50px;
 }
 .apps--office {
     display: grid;
@@ -27,8 +27,8 @@
 }
 .apps__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-auto-rows: 100px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 50px;
     grid-gap: 5px;
 }
 .app--g2x2 {
@@ -50,7 +50,7 @@
 
 }
 .app--in-3 {
-
+    
 }
 .app--fun-2 {
 
